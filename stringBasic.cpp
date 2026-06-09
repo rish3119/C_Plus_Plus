@@ -13,12 +13,12 @@ int main() {
    cout << a + b << endl;
    string temp;
    
-   temp[0]= a[0];
+  /* temp[0]= a[0];
    a[0] = b[0];
    b[0] = temp[0];
    
-   cout << a << " " << b << endl;
-   /* string a, b;
+   cout << a << " " << b << endl;*/
+   string a, b;
     cin >> a >> b;
 
     // 1. Print lengths
@@ -34,6 +34,6 @@ int main() {
     a_prime[0] = b_prime[0];
     b_prime[0] = temp;
 
-    cout << a_prime << " " << b_prime << endl;*/
+    cout << a_prime << " " << b_prime << endl;
     return 0;
 }
